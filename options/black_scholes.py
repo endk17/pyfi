@@ -1,24 +1,8 @@
-# python standard modules
-import time
-import datetime as dt
-from math import sqrt, pi
 
-
-# import numpy, pyplot and scipy
+# import numpy and scipy
 import numpy as np
-import pandas as pd
-import yfinance as yf
-import matplotlib as mat
-
-mat.style.use("ggplot")
-import matplotlib.pyplot as plt
-
-# for plotting the vol surface
-from mpl_toolkits.mplot3d import Axes3D
 import scipy
 from scipy.stats import norm
-from scipy.optimize import brentq
-from scipy.interpolate import interp1d
 
 
 
